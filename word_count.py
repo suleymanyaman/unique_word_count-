@@ -17,7 +17,7 @@ for word in match:
         data[word]+=1
 
 
-print("Unique words:",len(data.keys()))
+print("Distinct words:",len(data.keys()))
 print("Words:",  len(match))
 
 
